@@ -1,5 +1,3 @@
-frames = [4, 6, 9, 44, 7]
-
 def find_missing_ranges(frames: list[int]) -> dict: 
     """
     Documentation:
@@ -117,8 +115,3 @@ def find_missing_ranges(frames: list[int]) -> dict:
         "longest_gap_range": longest_gap_range,
         "longest_gap_size": longest_gap_size
     }
-
-
-if __name__ == "__main__":
-    result = find_missing_ranges(frames)
-    print(result)
