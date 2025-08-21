@@ -11,7 +11,7 @@ python main.py
 
 ### Example input:
 
-frames = [1, 5, 3 ,8, 7]
+frames = [4, 6, 9, 44, 7]
 
 ### Example output:
 
